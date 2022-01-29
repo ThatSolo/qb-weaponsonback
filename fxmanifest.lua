@@ -1,9 +1,9 @@
 fx_version 'cerulean'
 games { 'rdr3', 'gta5' }
 
-author 'Solrac#0680'
-description 'Simple Script to show the weapons on back and waist'
-version '1.0.0'
+author 'TRClassic#8429'
+description 'Coastal City 2.0 Weapon On Back'
+version '2.0.0'
 
 client_scripts {
     'client.lua'

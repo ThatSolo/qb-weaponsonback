@@ -63,6 +63,7 @@ local meleelarge = {
     ["weapon_bat"] = "w_me_bat",
     ["weapon_golfclub"] = "w_me_gclub",
     ["weapon_crowbar"] = "w_me_crowbar",
+    ["weapon_katana"] = "w_me_katana",
 }
 
 local polweap = {
@@ -161,9 +162,9 @@ function GiveWeap(wep)
         back_bone = 24818
         x = 0.0
         y = -0.15
-        z = -0.05
-        x_rotation = 0.0
-        y_rotation = -45.0
+        z = 0.10
+        x_rotation = 175.0
+        y_rotation = -175.0
         z_rotation = 180.0
         valid = true
         selectwep = rifles[wep]
@@ -171,7 +172,7 @@ function GiveWeap(wep)
         back_bone = 51826
         x = 0.05
         y = 0.0
-        z = 0.1
+        z = 0.12
         x_rotation = -90.0
         y_rotation = 0.0
         z_rotation = 0.0
@@ -189,11 +190,11 @@ function GiveWeap(wep)
         selectwep = melee[wep]
     elseif meleelarge[wep] ~= nil then
         back_bone = 24818
-        x = -0.20
+        x = 0.25
         y = -0.15
-        z = 0.0
+        z = 0.25
         x_rotation = 0.0
-        y_rotation = 90.0
+        y_rotation = 220.0
         z_rotation = 0.0
         valid = true
         selectwep = meleelarge[wep]
